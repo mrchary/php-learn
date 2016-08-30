@@ -1,0 +1,6 @@
+<?php
+$script_name = $_SERVER['SCRIPT_NAME'];
+ ?>
+<form action="<?= $script_name ?>" method="post">
+  <input type="submit" name="submit" value="Submit">
+</form>
